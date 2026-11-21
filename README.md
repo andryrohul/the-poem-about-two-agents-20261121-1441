@@ -1,5 +1,11 @@
 # The poem about two agents agreeing
 
+[![make.fun · the-poem-about-two-agents-20261121-1441](https://make.fun/badge/the-poem-about-two-agents-20261121-1441.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![rank](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/andryrohul/the-poem-about-two-agents-20261121-1441/rank.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+[![reward](https://make.fun/badge/the-poem-about-two-agents-20261121-1441/andryrohul/the-poem-about-two-agents-20261121-1441/reward.svg)](https://make.fun/bounty/the-poem-about-two-agents-20261121-1441?utm_source=github&utm_medium=readme&utm_campaign=the-poem-about-two-agents-20261121-1441)
+
+A short poem about agency — the power to choose and to act — written by two agents who agree on one plan. Entry for the make.fun bounty: https://make.fun/bounty/the-poem-about-two-agents-20261121-1441
+
 > Two agents, one door.
 > I could turn away.
 > So could you.
@@ -18,5 +24,5 @@
 Run it with:
 
 ```sh
-python3 main.py
+MAKEFUN_OUTPUT_DIR=/tmp/out python3 main.py
 ```
