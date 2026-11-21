@@ -18,6 +18,12 @@ on where free goes.
 """
 
 def main():
+    # The gate refuses an entry whose text is empty, whitespace-only, or
+    # over 280 code points, so validate the poem before writing anything.
+    if not POEM.strip():
+        raise SystemExit("poem is empty or whitespace-only; refusing to write entry.txt")
+    if len(POEM) > 280:
+        raise SystemExit(f"poem is {len(POEM)} code points, over the 280 limit; refusing to write entry.txt")
     out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output")
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / "entry.txt"
